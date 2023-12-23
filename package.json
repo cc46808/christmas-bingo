@@ -1,0 +1,30 @@
+{
+  "name": "christmas-bingo",
+  "version": "1.0.0",
+  "description": "An interactive, real-time Christmas Bingo game designed for festive group play. Features include individual player cards, a game master control panel, and dynamic updates for engaging multiplayer experience. Ideal for holiday parties and family gatherings.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cc46808/christmas-bingo.git"
+  },
+  "author": "Craig Carroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cc46808/christmas-bingo/issues"
+  },
+  "homepage": "https://github.com/cc46808/christmas-bingo#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
